@@ -1,9 +1,9 @@
 body {
    background:
-    linear-gradient(to bottom, #20207e 0%, #111135 30%),
-    linear-gradient(to bottom right, #111135, #0a0a20);
+    linear-gradient(to bottom, #20207e 0%, #13133b 30%),
+    linear-gradient(to bottom right, #13133b, #070718);
   
-  background-blend-mode: screen; /* try overlay, lighten, etc. */
+  background-blend-mode: overlay; /* try overlay, lighten, etc. */
   color: #e0e0ff;
   font-family: Arial, sans-serif;
   padding: 2rem;
