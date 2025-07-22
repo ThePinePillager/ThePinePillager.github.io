@@ -13,7 +13,7 @@ body {
 }
 
 .header-content {
-  max-width: 1000px;
+  max-width: 1500px;
   margin: 0 auto;
   padding: 0 1rem;
   text-align: center;
@@ -25,7 +25,7 @@ header {
 }
 
 h1 {
-  font-size: 5rem;
+  font-size: 4rem;
   background: linear-gradient(to bottom right, #b4faa6, #3de237);
   -webkit-background-clip: text;
   background-clip: text;
