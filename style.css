@@ -7,11 +7,16 @@ body {
 }
 
 header {
-  border-bottom: 1px solid #444;
+  text-align: center;
+  font-size: 7.5rem;
+  background: linear-gradient(to right, #1e1e3f, #2d2d5c);
+  padding: 2rem 1rem;
+  border-radius: 8px;
   margin-bottom: 2rem;
 }
 
 h1 {
+  text-align: center;
   font-size: 2.5rem;
   margin: 0;
 }
