@@ -49,6 +49,26 @@ main {
   margin-top: 2rem;
 }
 
+.slate-section::before {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 60px;
+  background: rgba(255, 255, 255, 0.3);
+  margin: 0 auto 1em auto;
+}
+
+.slate-section {
+  background-color: rgba(128, 128, 128, 0.2); /* translucent gray */
+  backdrop-filter: blur(4px);                 /* adds a glassy feel */
+  border-radius: 12px;
+  padding: 2em;
+  margin: 3em auto;
+  max-width: 800px;
+  color: white;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
 footer {
   margin-top: 3rem;
   font-size: 0.9rem;
