@@ -13,14 +13,15 @@ body {
 }
 
 .header-content {
-  max-width: 800px;
+  max-width: 1000px;
   margin: 0 auto;
   padding: 0 1rem;
   text-align: center;
 }
 
 header {
-  font-size: 15rem;
+  color: linear-gradient(to bottom right, #b4faa6, #3de237);
+  font-size: 10rem;
   border-radius: 0px;
   margin-bottom: 2rem;
 }
