@@ -13,10 +13,12 @@ body {
 }
 
 .header-content {
-  max-width: 1500px;
   margin: 0 auto;
   padding: 0 1rem;
   text-align: center;
+  font-family: 'Michroma', sans-serif;
+  letter-spacing: 1px;
+  text-shadow: 0 0 5px rgba(156, 255, 156, 0.3);
 }
 
 header {
