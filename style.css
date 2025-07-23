@@ -67,13 +67,14 @@ main {
   border-radius: 12px;
   padding: 2em;
   margin: 3em auto;
-  max-width: 1000px;
+  max-width: 900px;
   color: white;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
 }
 
 footer {
   margin-top: 3rem;
+  padding: 2em;
   font-size: 0.9rem;
   color: #888;
 }
