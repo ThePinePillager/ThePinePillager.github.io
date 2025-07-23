@@ -5,7 +5,9 @@ body {
   
   background-blend-mode: overlay; /* try overlay, lighten, etc. */
   color: #e0e0ff;
-  font-family: Arial, sans-serif;
+  font-family: 'Michroma', sans-serif;
+  font-size: 1em;
+  line-height: 1.6;
   padding: 0;
   padding-top: 0;
   margin: 0;
@@ -16,8 +18,7 @@ body {
   margin: 0 auto;
   padding: 0 1rem;
   text-align: center;
-  font-family: 'Michroma', sans-serif;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
   text-shadow: 0 0 5px rgba(156, 255, 156, 0.3);
 }
 
@@ -27,7 +28,8 @@ header {
 }
 
 h1 {
-  font-size: 4rem;
+  font-family: 'Fleur De Leah', cursive;
+  font-size: 4em;
   background: linear-gradient(to bottom right, #bfffb3, #31c52c);
   -webkit-background-clip: text;
   background-clip: text;
@@ -35,7 +37,8 @@ h1 {
 }
 
 p {
-  font-size: 1.2rem;
+  font-family: 'Michroma', sans-serif;
+  font-size: 1.5rem;
 }
 
 hr {
