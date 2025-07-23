@@ -27,7 +27,7 @@ header {
 }
 
 h1 {
-  font-size: 4rem;
+  font-size: 5rem;
   background: linear-gradient(to bottom right, #bfffb3, #31c52c);
   -webkit-background-clip: text;
   background-clip: text;
@@ -58,9 +58,9 @@ hr {
 }
 
 img.img2 {
-  max-width: 25%;
+  max-width: 100%;
   height: auto;
-  border-radius: 12px;
+  border-radius: 4px;
   box-shadow: 0 4px 20px rgba(0,0,0,0.3);
 }
 
