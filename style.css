@@ -57,11 +57,9 @@ hr {
   transform: translateX(-50%);
 }
 
-img.img2 {
-  max-width: 100%;
-  height: auto;
-  border-radius: 4px;
-  box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+.title-O img {
+  height: 1em; /* matches font height */
+  vertical-align: middle;
 }
 
 main {
