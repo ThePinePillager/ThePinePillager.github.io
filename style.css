@@ -10,6 +10,9 @@ body {
   padding-top: 0;
   margin: 0;
   min-height: 100vh;
+  overflow-y: auto;     /* or just remove overflow-y if it's set to hidden */
+  height: auto;
+  max-height: none;
 }
 
 .header-content {
