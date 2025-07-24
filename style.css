@@ -68,6 +68,18 @@ hr {
   vertical-align: middle;
 }
 
+.title-word {
+  display: block;
+  text-align: center;
+}
+
+.title-gap {
+  display: block;
+  height: 1em; /* Adjust to taste */
+}
+
+/* Main */
+
 main {
   margin-top: 2rem;
 }
