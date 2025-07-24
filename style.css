@@ -69,12 +69,12 @@ hr {
 }
 
 .title-word {
-  display: block;
+  display: inline-block;
   text-align: center;
 }
 
 .title-gap {
-  display: block;
+  display: inline-block;
   height: 1em; /* Adjust to taste */
 }
 
