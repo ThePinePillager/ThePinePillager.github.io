@@ -1,3 +1,9 @@
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
 body {
    background:
     linear-gradient(to bottom, #20207e 0%, #13133b 30%),
@@ -87,4 +93,29 @@ footer {
   padding: 2em;
   font-size: 0.9rem;
   color: #888;
+}
+
+/* Media stuff */
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 3rem; /* was 5rem — now scaled for mobile */
+    line-height: 1.2;
+  }
+
+  .header-content {
+    padding: 0 0.5rem;
+    text-shadow: none; /* Optional: remove glow to reduce iOS rendering glitch */
+  }
+
+  .slate-section {
+    margin: 2em 1em;
+    padding: 1.5em;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 2.4rem;
+  }
 }
